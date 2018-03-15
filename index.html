@@ -1,18 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
 
-    <link type="text/css" rel="stylesheet" href="/css/main.css"/>
+<html>
+    <head>
+        <title>cv wbrzezinska</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style/newcss.css" rel="stylesheet" type="text/css"/>
+        <link href='http://fonts.googleapis.com/css?family=Arya&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-</head>
-<body>
-<h1>HELLO WORLD Weronika</h1>    
+    </head>
+    <body>
+        <main>
+            <header> 
+                <div class="naglow">
+                    <div id="foto"></div>
+                    <h1 id="myName"></h1>
+                    <h2 id="cv"></h2>
+                </div>
+            </header>
+            <div class="table1">
+                <h3 id="daneper"></h3>
+                <table>
+                    <tr>
+                        <td>Imię i Nazwisko:</td>
+                        <td>Weronika Brzezińska</td>
+                    </tr>
+                    <tr>
+                        <td>Adres:</td>
+                        <td>ul. Sikorskiego 2/46, Białystok</td>
+                    </tr>
+                    <tr>
+                        <td>Data urodzenia:</td>
+                        <td>21.10.1990</td>
+                    </tr>
+                    <tr>
+                        <td>e-mail:</td>
+                        <td>e.werusiak@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Telefon kontaktowy</td>
+                        <td>666361821</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table2">
+                <h3 id="study"></h3>
+                <input type="button" id="sortuj" value="sortuj" onclick="sortTable(0)"/>
+                <table id="wyksztalcenie">
+                    <tr>
+                        <td> 2009 - 2012 </td>
+                        <td>Uniwersytet Medyczny w Białymstoku</td>
+                        <td>Pielęgniarstwo, studia I stopnia</td>
+                    </tr>
+                    <tr>
+                        <td>2012 - 2014</td>
+                        <td>Uniwersytet Medyczny w Białymstoku</td>
+                        <td>Pielęgniarstwo, studia II stopnia</td>
+                    </tr>
+                    <tr>
+                        <td>2017 - 2018</td>
+                        <td>Politechnika Białostocka</td>
+                        <td>Studia Podyplomowe. Aplikacje Internetowe. Front-end Development</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="doswiad">
+                <h3 id="enplo">Doświadczenie zawodowe:</h3>
+                <div id="tabelados">
+                </div>
 
-<script type="text/javascript" src="js/main.js"></script>
-
-</body>
+                <div class="kursy">
+                    <h3 id="kursy"></h3>
+                    <ul>
+                        <li>Wykonanie i interpretacja zapisu elektrokardiograficznego</li>
+                        <li>Szczepienia ochronne</li>
+                        <li>Resuscytacja krążeniowo-oddechowa dla pielęgniarek i położnych</li>
+                    </ul>
+                </div>
+                <div class="umiejet">
+                    <h3 id="umie"></h3>
+                    <div id="lista">
+                    </div>
+                   
+                </div>
+            </div>
+        </main>
+        <script src="js/newjavascript.js" type="text/javascript"></script>  
+    </body>
 </html>
